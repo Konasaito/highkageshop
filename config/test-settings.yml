@@ -6,6 +6,6 @@ database:
   # something like:
   #
   #   database: "_env:PGDATABASE:aulahaskell_LOWER_test"
-  database: aulahaskell_LOWER_test
+  database: highkageshop_LOWER_test
 
 auth-dummy-login: true
