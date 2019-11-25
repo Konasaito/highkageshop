@@ -67,7 +67,7 @@ library:
 
 # Runnable executable for our application
 executables:
-  aulahaskell:
+  highkageshop:
     main: main.hs
     source-dirs: app
     ghc-options:
@@ -75,7 +75,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - aulahaskell
+    - highkageshop
     when:
     - condition: flag(library-only)
       buildable: false
