@@ -18,8 +18,8 @@ formCachimbos = renderBootstrap $ Cachimbos
     <$> areq textField "Nome: " Nothing
     <*> areq dayField "Nasc: " Nothing
 
-getAtorR :: Handler Html
-getAtorR = do 
+getCachimbosR :: Handler Html
+getCachimbosR = do 
     (widget,_) <- generateFormPost formCachimbos
     msg <- getMessage
     defaultLayout $ 
