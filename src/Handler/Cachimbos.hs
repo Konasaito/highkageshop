@@ -16,8 +16,9 @@ import Database.Persist.Postgresql
 formCachimbos :: Form Cachimbos 
 formCachimbos = renderBootstrap $ Cachimbos
     <$> areq textField "Nome: " Nothing
-    <*> areq dayField "Nasc: " Nothing
-
+    <*> areq intField  "Preco: " Nothing
+    <*> areq textField "Material: " Nothing
+    
 getCachimbosR :: Handler Html
 getCachimbosR = do 
     (widget,_) <- generateFormPost formCachimbos
