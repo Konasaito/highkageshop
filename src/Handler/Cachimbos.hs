@@ -4,7 +4,7 @@
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Ator where
+module Handler.Cachimbos where
 
 import Import
 import Text.Lucius
@@ -13,14 +13,14 @@ import Text.Julius
 import Database.Persist.Postgresql
 
 -- renderDivs
-formAtor :: Form Ator 
+formAtor :: Form Cachimbos 
 formAtor = renderBootstrap $ Ator
     <$> areq textField "Nome: " Nothing
     <*> areq dayField "Nasc: " Nothing
 
 getAtorR :: Handler Html
 getAtorR = do 
-    (widget,_) <- generateFormPost formAtor
+    (widget,_) <- generateFormPost formCachimbos
     msg <- getMessage
     defaultLayout $ 
         [whamlet|
@@ -29,24 +29,24 @@ getAtorR = do
                     ^{mensa}
             
             <h1>
-                CADASTRO DE ATOR
+                CADASTRO DE CACHIMBOS
             
-            <form method=post action=@{AtorR}>
+            <form method=post action=@{CachimbosR}>
                 ^{widget}
                 <input type="submit" value="Cadastrar">
         |]
 
 postAtorR :: Handler Html
 postAtorR = do 
-    ((result,_),_) <- runFormPost formAtor
+    ((result,_),_) <- runFormPost formCachimbos
     case result of 
-        FormSuccess ator -> do 
-            runDB $ insert ator 
+        FormSuccess cachimbos -> do 
+            runDB $ insert cachimbos 
             setMessage [shamlet|
                 <div>
-                    ATOR INCLUIDO
+                    CACHIMBO INCLUIDO
             |]
-            redirect AtorR
+            redirect CachimbosR
         _ -> redirect HomeR
 
 
