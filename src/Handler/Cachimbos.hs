@@ -13,8 +13,8 @@ import Text.Julius
 import Database.Persist.Postgresql
 
 -- renderDivs
-formAtor :: Form Cachimbos 
-formAtor = renderBootstrap $ Ator
+formCachimbos :: Form Cachimbos 
+formCachimbos = renderBootstrap $ Cachimbos
     <$> areq textField "Nome: " Nothing
     <*> areq dayField "Nasc: " Nothing
 
@@ -36,8 +36,8 @@ getAtorR = do
                 <input type="submit" value="Cadastrar">
         |]
 
-postAtorR :: Handler Html
-postAtorR = do 
+postCachimbosR :: Handler Html
+postCachimbosR = do 
     ((result,_),_) <- runFormPost formCachimbos
     case result of 
         FormSuccess cachimbos -> do 
