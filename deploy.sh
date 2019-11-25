@@ -1,5 +1,5 @@
 git add . &&
-git commit -m --allow-empty-message "$1" &&
+git commit -m "Auto aiiii deploy" &&
 git push origin master &&
 ssh root@193.70.38.32 <<EOF
 cd highkageshop &&
