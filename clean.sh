@@ -1,5 +1,5 @@
-ssh root@51.91.126.117 <<EOF
-cd aulaadsn &&
+ssh root@193.70.38.32 <<EOF
+cd highkageshop &&
 stack clean &&
 echo "limpeza de arquivos ok!"
 EOF
