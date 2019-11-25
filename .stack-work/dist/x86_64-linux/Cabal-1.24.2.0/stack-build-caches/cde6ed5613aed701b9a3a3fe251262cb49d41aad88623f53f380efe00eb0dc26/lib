@@ -1,0 +1,100 @@
+/var/lib/postgresql/highkageshop/package.yaml:
+  hash: 2a9f184b54e54a0fd7dbf6af3833c1288bb6a0f5c395d3547de35d9d6d65e619
+  size: 2109
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/templates/page1.lucius:
+  hash: 45ca9e0019129b0b4a77609ffbbe4421321639156416de4ada353f95166bdc43
+  size: 25
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Import.hs:
+  hash: e2316f6d638cc4e9d157c71f1b1b075efb0b67fdc59fee700ac8d9a7df167a03
+  size: 125
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/config/settings.yml:
+  hash: b5b9edb006aa00c6bd15c8bdae1b9bdcd14a8b00069c2dd9990c4ad7e736a949
+  size: 1502
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/templates/page1.julius:
+  hash: cc1ebce12b300d0d4bb44dac437eb60a2c9497ad19585651578cca4aa138c37b
+  size: 51
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Handler/Login.hs:
+  hash: 0a5c82cac150e9be9003f5f9963c00395c969b5d22896801f4fe901cbf9309e5
+  size: 2264
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/templates/page1.hamlet:
+  hash: ed5aff41597514ed20b838eb33dde13d1595c7cc22c5f4404e45b791c0c90f56
+  size: 69
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/config/models:
+  hash: 52b4358ee88cb8c3c67ac37edd2e08e239f82bcdb730edb9c9668faa90704b71
+  size: 173
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/highkageshop.cabal:
+  hash: 867c61194c2dea2dd83e9f6e68e50348bafe76901f07ee4559cd4d371a9a6deb
+  size: 3494
+  modtime: 1574684958
+/var/lib/postgresql/highkageshop/templates/page2.hamlet:
+  hash: a243897e43d21cc3631e4252c9f7e81de667000a20149dcf0a7b4a134a5cbabc
+  size: 69
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Application.hs:
+  hash: f873f759df58b4fed07f7f56d4430b9857454d2915f6a7cbb7e124b22c1bafa4
+  size: 6708
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/config/routes:
+  hash: 7e40b4b4f2da5eb69df683cc384cbcfdc6b166e9280b1deb145736b4c46a303d
+  size: 271
+  modtime: 1574681485
+/var/lib/postgresql/highkageshop/src/Handler/Home.hs:
+  hash: bd24393ec23c007d8fdb24eac8a69331e85ddca3aeadfbbc44976aea6d60a1e8
+  size: 2218
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Settings.hs:
+  hash: 536d09966a46648ce3398015123826b21a110bc3ff528f2192f0ab07a0c600c1
+  size: 5994
+  modtime: 1574666372
+/usr/include/stdc-predef.h:
+  hash: ee35c95f8e09d071278e05e755a1bd41fbbf4517374d9464beabb1b16c1b58e9
+  size: 2363
+  modtime: 1523909660
+/var/lib/postgresql/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/include/ghcversion.h:
+  hash: 5fa78f17e0ab39ded09de66c85afdd61d0b598cbd4bdded87899879f213aacc1
+  size: 560
+  modtime: 1574666763
+/var/lib/postgresql/highkageshop/src/Foundation.hs:
+  hash: 4107321599bc92a590003a1188b69e11b45d50c6a791c3ee2eecdd53f1cf624b
+  size: 1831
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/config/favicon.ico:
+  hash: 26f64af57709ca371fe68e50a5d915661e4aa017748983906d57d00f7fc3f748
+  size: 1342
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Handler/Cachimbos.hs:
+  hash: 4212c37527a7d295c1811ddc89c0686d32fa37d561f0d32ca73826714cf87094
+  size: 1417
+  modtime: 1574682856
+/var/lib/postgresql/highkageshop/config/robots.txt:
+  hash: fd89345af6aca5dab85f2aa6a830e270a362b1fa6b5f19607ddd773a081ed651
+  size: 14
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Handler/Usuario.hs:
+  hash: 8316b7e73796de45279d73352e61a789064a2706d4dadea2862a016704402d98
+  size: 1735
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Handler/Common.hs:
+  hash: e71035acb286cb06fee6a8629b078cae31385b98251f88e871d27d196a5fdb02
+  size: 777
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Model.hs:
+  hash: de33e5da728007479d8cee976403d9baded53f638baaf58c1e876d5848485dc8
+  size: 781
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Settings/StaticFiles.hs:
+  hash: 05d50ff4565a9c18c44102b7a541ecbfe7d71087bc99d14757edf5fe098816a0
+  size: 799
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/src/Import/NoFoundation.hs:
+  hash: 89a5613fb7b49a7fa3a0b53aa5279f75a6311b867f96f0121c18feaaa1c2fcab
+  size: 366
+  modtime: 1574666372

@@ -1,0 +1,16 @@
+/var/lib/postgresql/highkageshop/package.yaml:
+  hash: 2a9f184b54e54a0fd7dbf6af3833c1288bb6a0f5c395d3547de35d9d6d65e619
+  size: 2109
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/app/DevelMain.hs:
+  hash: 07bd76ab6a6db92b1f34f43dca496e1fbaac4a65f78d8178c3e09369787d362e
+  size: 3005
+  modtime: 1574666372
+/var/lib/postgresql/highkageshop/highkageshop.cabal:
+  hash: 867c61194c2dea2dd83e9f6e68e50348bafe76901f07ee4559cd4d371a9a6deb
+  size: 3494
+  modtime: 1574684958
+/var/lib/postgresql/highkageshop/app/main.hs:
+  hash: f9d055366fe70c52b18b6ec6904b6dd078dac286b04e0b5c0677b5da655053d3
+  size: 83
+  modtime: 1574666372
