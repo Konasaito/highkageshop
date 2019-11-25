@@ -1,0 +1,24 @@
+
+
+Usuario 
+    nome  Text
+    email Text
+    senha Text
+    UniqueEmailIx email
+    deriving Show
+
+Serie
+    nome  Text
+    ano   Int
+    pais  Text
+    deriving Show
+
+Ator 
+    nome  Text
+    ano   Day
+    deriving Show
+
+Atua
+    serieid SerieId
+    atorid  AtorId
+    ano     Int

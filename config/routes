@@ -1,0 +1,19 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET 
+/p1 Page1R GET
+/p2 Page2R GET
+
+/cadastro UsuarioR GET POST
+/entrar   EntrarR  GET POST
+/sair     SairR    POST
+/admin    AdminR   GET
+
+/ator     AtorR    GET POST
+/serie    SerieR   GET POST
+
+/atua             AtuaR    GET POST
+/elenco/#SerieId  ElencoR  GET

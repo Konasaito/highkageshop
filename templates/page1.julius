@@ -1,0 +1,5 @@
+function page1(){
+    alert("PAGINA1");
+}
+
+page1();
