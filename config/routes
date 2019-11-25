@@ -12,4 +12,4 @@
 /sair     SairR    POST
 /admin    AdminR   GET
 
-/cachimbos     CachimboR    GET POST
+/cachimbos     CachimbosR    GET POST
