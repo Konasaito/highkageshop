@@ -1,5 +1,5 @@
 git add . &&
-git commit -m "Auto aiiii deploy" &&
+git commit -m "Auto deploy" &&
 git push origin master &&
 ssh -t root@193.70.38.32 <<EOF
 git pull origin master &&
