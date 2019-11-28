@@ -1,4 +1,5 @@
- git add . &&
+
+git add . &&
 git commit -m "Auto deploy after update" &&
 git push origin master &&
 ssh root@193.70.38.32 <<EOF
